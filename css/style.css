@@ -78,6 +78,7 @@
 .banner-items h2{
     color: grey;
 }
+.kursPython-items 
 
 .banner-items button{
     background-color: blue;
@@ -235,7 +236,7 @@
         margin-top: 0;
     }
     .main{
-        height: 275px;
+        height: 250px;
     }
     .main .egitim{
         flex-direction: column;
