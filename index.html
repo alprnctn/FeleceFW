@@ -12,22 +12,22 @@
         <div class = "menu">          
             <ul>
                 <li><a href="index.html">Ana Sayfa</a></li>
-                <li><a href="#">Eğitimler</a></li>
-                <li><a href="#">Kurslar</a></li>
-                <li><a href="#">İletişim</a></li>
+                <li><a href="#egitimler">Eğitimler</a></li>
+                <li><a href="#kurslar">Kurslar</a></li>
+                <li><a href="#iletişim">İletişim</a></li>
             </ul>
         </div>
     </div>
     <div class="banner">
         <div class="banner-items">
-            <img src="/images/atam2.jpg">
+            <img src="images/atam2.jpg" alt="Atatürk">
             <h1>Alperen Çetin</h1><br>
             <h2><i>Junior Developer</i></h2><br>
-            <button onclick="window.location.href=''">Kurslara Git</button>
+            <button onclick="window.location.href='#kurslar'">Kurslara Git</button>
         </div>        
     </div>
     <div class="main">
-        <h1>Eğitimler</h1><br>
+        <h1 id = "egitimler">Eğitimler</h1><br>
         <div class="egitim">
             <div class="egitim1">
                 <h2>Sınıf İçi Eğitimler</h2>
@@ -44,16 +44,28 @@
         </div>
     </div>
     <div class="kurslar">
-        
+        <h1 id ="kurslar">Kurslar</h1>
+        <div class="kursPython">
+            <img src="images/python-logo.png" alt="python kursu">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi ullam minima et dolores maxime nam?</p>
+        </div>
+        <div class="kursJava">
+            <img src="images/python-logo.png" alt="python kursu">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi ullam minima et dolores maxime nam?</p>
+        </div>
+        <div class="kursJavascript">
+            <img src="images/python-logo.png" alt="python kursu">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi ullam minima et dolores maxime nam?</p>
+        </div>
     </div>
     <div class="contact">
         <div class="contact-text">
             <div class="contact-items">
-                <h2>Bana Ulaşın</h2>
+                <h2 id = "iletişim">Bana Ulaşın</h2>
                 <input name = İsim type="text" placeholder="İsim">
                 <input name = Email type="text" placeholder="Email">
                 <textarea name="Mesaj" cols="20" rows="20" placeholder="Mesajınız..."></textarea>
-                <a href="#">Gönder</a>
+                <button onclick="window.location.href=''">Gönder</button>
             </div>
         </div>
     </div>
